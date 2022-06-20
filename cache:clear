@@ -1,0 +1,150 @@
+Script started on Mon Jun 20 13:02:17 2022
+[1m[7m%[27m[1m[0m                                                                                ]7;file://2021MacBookPro13.local/Users/Jorge/Desktop/forF5[0m[27m[24m[JJorge@2021MacBookPro13 forF5 % [K[?2004h[7mscript assets:install public[27m[28D[27ms[27mc[27mr[27mi[27mp[27mt[27m [27ma[27ms[27ms[27me[27mt[27ms[27m:[27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mp[27mu[27mb[27ml[27mi[27mc[?2004l
+Script started, output file is assets:install
+script: public: No such file or directory
+
+Script done, output file is assets:install
+[1m[7m%[27m[1m[0m                                                                                ]7;file://2021MacBookPro13.local/Users/Jorge/Desktop/forF5[0m[27m[24m[JJorge@2021MacBookPro13 forF5 % [K[?2004hscript assets:install public[28Dcomposer install            [12Drequire symfony/apache-pack[?2004l
+[32mInfo from https://repo.packagist.org: [37;44m#StandWith[30;43mUkraine[0m[39m
+Using version [32m^1.0[39m for [32msymfony/apache-pack[39m
+[32m./composer.json has been updated[39m
+[32mRunning composer update symfony/apache-pack[39m
+[32mLoading composer repositories with package information[39m
+[32mInfo from https://repo.packagist.org: [37;44m#StandWith[30;43mUkraine[0m[39m
+[32mUpdating dependencies[39m
+Nothing to modify in lock file
+[32mInstalling dependencies from lock file (including require-dev)[39m
+Nothing to install, update or remove
+[32mGenerating optimized autoload files[39m
+[32m59 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+Executing script cache:clear [32m[OK][39m
+Executing script assets:install public [32m[OK][39m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://2021MacBookPro13.local/Users/Jorge/Desktop/forF5[0m[27m[24m[JJorge@2021MacBookPro13 forF5 % [K[?2004hcomposer require symfony/apache-pack                          install[?2004l
+[32mInstalling dependencies from lock file (including require-dev)[39m
+[32mVerifying lock file contents can be installed on current platform.[39m
+Nothing to install, update or remove
+[32mGenerating optimized autoload files[39m
+[32m59 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+Executing script cache:clear [32m[OK][39m
+Executing script assets:install public [32m[OK][39m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://2021MacBookPro13.local/Users/Jorge/Desktop/forF5[0m[27m[24m[JJorge@2021MacBookPro13 forF5 % [K[?2004hcomposer install[?2004l
+[32mInstalling dependencies from lock file (including require-dev)[39m
+[32mVerifying lock file contents can be installed on current platform.[39m
+[32mPackage operations: 70 installs, 0 updates, 0 removals[39m
+    0 [>---------------------------][2K    0 [>---------------------------][2K    0 [>---------------------------][2K  - Installing [32msymfony/flex[39m ([33mv1.19.2[39m): Extracting archive
+  - Installing [32msymfony/polyfill-php80[39m ([33mv1.26.0[39m): Extracting archive
+  - Installing [32msymfony/runtime[39m ([33mv5.4.8[39m): Extracting archive
+  - Installing [32mpsr/cache[39m ([33m1.0.1[39m): Extracting archive
+  - Installing [32mdoctrine/lexer[39m ([33m1.2.3[39m): Extracting archive
+  - Installing [32mdoctrine/annotations[39m ([33m1.13.2[39m): Extracting archive
+  - Installing [32msymfony/deprecation-contracts[39m ([33mv2.5.1[39m): Extracting archive
+  - Installing [32msymfony/routing[39m ([33mv5.4.8[39m): Extracting archive
+  - Installing [32msymfony/polyfill-php81[39m ([33mv1.26.0[39m): Extracting archive
+  - Installing [32msymfony/polyfill-mbstring[39m ([33mv1.26.0[39m): Extracting archive
+  - Installing [32msymfony/polyfill-php73[39m ([33mv1.26.0[39m): Extracting archive
+  - Installing [32msymfony/http-foundation[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32mpsr/event-dispatcher[39m ([33m1.0.0[39m): Extracting archive
+  - Installing [32msymfony/event-dispatcher-contracts[39m ([33mv2.5.1[39m): Extracting archive
+  - Installing [32msymfony/event-dispatcher[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32msymfony/var-dumper[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32mpsr/log[39m ([33m1.1.4[39m): Extracting archive
+  - Installing [32msymfony/error-handler[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32msymfony/http-kernel[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32msymfony/finder[39m ([33mv5.4.8[39m): Extracting archive
+  - Installing [32msymfony/filesystem[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32mpsr/container[39m ([33m1.1.2[39m): Extracting archive
+  - Installing [32msymfony/service-contracomposer install[?2004l
+[32mInstalling dependencies from lock file (including require-dev)[39m
+[32mVerifying lock file contents can be installed on current platform.[39m
+[32mPackage operations: 70 installs, 0 updates, 0 removals[39m
+    0 [>---------------------------][2K    0 [>---------------------------][2K    0 [>---------------------------][2K  - Installing [32msymfony/flex[39m ([33mv1.19.2[39m): Extracting archive
+  - Installing [32msymfony/polyfill-php80[ [32msymfony/framework-bundle[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32msymfony/stopwatch[39m ([33mv5.4.5[39m): Extracting archive
+  - Installing [32msymfony/polyfill-intl-normalizer[39m ([33mv1.26.0[39m): Extracting archive
+  - Installing [32msymfony/polyfill-intl-grapheme[39m ([33mv1.26.0[39m): Extracting archive
+  - Installing [32msymfony/string[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32msymfony/console[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32mlaminas/laminas-code[39m ([33m4.5.2[39m): Extracting archive
+  - Installing [32mfriendsofphp/proxy-manager-lts[39m ([33mv1.0.12[39m): Extracting archive
+  - Installing [32mdoctrine/event-manager[39m ([33m1.1.1[39m): Extracting archive
+  - Installing [32mdoctrine/deprecations[39m ([33mv1.0.0[39m): Extracting archive
+  - Installing [32mdoctrine/cache[39m ([33m2.2.0[39m): Extracting archive
+  - Installing [32mdoctrine/dbal[39m ([33m3.3.7[39m): Extracting archive
+  - Installing [32mdoctrine/migrations[39m ([33m3.5.1[39m): Extracting archive
+  - Installing [32mdoctrine/collections[39m ([33m1.6.8[39m): Extracting archive
+  - Installing [32mdoctrine/persistence[39m ([33m3.0.2[39m): Extracting archive
+  - Installing [32msymfony/doctrine-bridge[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32mdoctrine/sql-formatter[39m ([33m1.1.2[39m): Extracting archive
+  - Installing [32mdoctrine/doctrine-bundle[39m ([33m2.7.0[39m): Extracting archive
+  - Installing [32mdoctrine/doctrine-migrations-bundle[39m ([33m3.2.2[39m): Extracting archive
+  - Installing [32mdoctrine/instantiator[39m ([33m1.4.1[39m): Extracting archive
+  - Installing [32mdoctrine/inflector[39m ([33m2.0.4[39m): Extracting archive
+  - Installing [32mdoctrine/common[39m ([33m3.3.0[39m): Extracting archive
+  - Installing [32mdoctrine/orm[39m ([33m2.12.3[39m): Extracting archive
+  - Installing [32msymfony/apache-pack[39m ([33mv1.0.1[39m): Extracting archive
+  - Installing [32msymfony/dotenv[39m ([33mv5.4.5[39m): Extracting archive
+  - Installing [32msymfony/property-info[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32msymfony/property-access[39m ([33mv5.4.8[39m): Extracting archive
+  - Installing [32msymfony/polyfill-intl-icu[39m ([33mv1.26.0[39m): Extracting archive
+  - Installing [32msymfony/options-resolver[39m ([33mv5.4.3[39m): Extracting archive
+  - Installing [32msymfony/form[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32mnikic/php-parser[39m ([33mv4.14.0[39m): Extracting archive
+  - Installing [32msymfony/maker-bundle[39m ([33mv1.43.0[39m): Extracting archive
+  - Installing [32msymfony/polyfill-intl-idn[39m ([33mv1.26.0[39m): Extracting archive
+  - Installing [32msymfony/mime[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32msymfony/proxy-manager-bridge[39m ([33mv5.4.6[39m): Extracting archive
+  - Installing [32mtwig/twig[39m ([33mv3.4.1[39m): Extracting archive
+  - Installing [32msymfony/translation-contracts[39m ([33mv2.5.1[39m): Extracting archive
+  - Installing [32msymfony/twig-bridge[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32msymfony/validator[39m ([33mv5.4.8[39m): Extracting archive
+  - Installing [32msymfony/yaml[39m ([33mv5.4.3[39m): Extracting archive
+  - Installing [32msymfony/twig-bundle[39m ([33mv5.4.8[39m): Extracting archive
+  - Installing [32mtwig/extra-bundle[39m ([33mv3.4.0[39m): Extracting archive
+  0/67 [>--[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32mdoctrine/sql-formatter[39m ([33m1.1.2[39m): Extracting archive
+  - Installing [32mdoctrine/doctrine-bundle[39m ([33m2.7.0[39m): Extracting archive
+  - Installing [32mdoctrine/doctrine-migrations-bundle[39m ([33m3.2.2[39m): Extracting archive
+  - Installing [32mdoctrine/instantiator[39m ([33m1.4.1[39m): Extracting archive
+  - Installing [32mdoctrine/inflector[39m ([33m2.0.4[39m): Extracting archive
+  - Installing [32mdoctrine/common[39m ([33m3.3.0[39m): Extracting archive
+  - Installing [32mdoctrine/orm[39m ([33m2.12.3[39m): Extracting archive
+  - Installing [32msymfony/apache-pack[39m ([33mv1.0.1[39m): Extracting archive
+  - Installing [32msymfony/dotenv[39m ([33mv5.4.5[39m): Extracting archive
+  - Installing [32msymfony/property-info[39aapacche   he[?2004l
+zsh: command not found: apache
+[1m[7m%[27m[1m[0m                                                                                ]7;file://2021MacBookPro13.local/Users/Jorge/Desktop/forF5[0m[27m[24m[JJorge@2021MacBookPro13 forF5 % [K[?2004h39m): Extracting archive
+  - Installing [32msymfony/form[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32mnikic/php-parser[39m ([33mv4.14.0[39m): Extracting archive
+  - Installing [32msymfony/maker-bundle[39m ([33mv1.43.0[39m): Extracting archive
+  - Installing [32msymfony/polyfill-intl-idn[39m ([33mv1.26.0[39m): Extracting archive
+  - Installing [32msymfony/mime[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32msymfony/proxy-manager-bridge[39m ([33mv5.4.6[39m): Extracting archive
+  - Installing [32mtwig/twig[39m ([33mv3.4.1[39m): Extracting archive
+  - Installing [32msymfony/translation-contracts[39m ([33mv2.5.1[39m): Extracting archive
+  - Installing [32msymfony/twig-bridge[39m ([33mv5.4.9[39m): Extracting archive
+  - Installing [32msymfony/validator[39m ([33mv5.4.8[39m): Extracting archive
+  - Installing [32msymfony/yaml[39m ([33mv5.4.3[39m): Extracting archive
+  - Installing [32msymfony/twig-bundle[39m ([33mv5.4.8[39m): Extracting archive
+  - Installing [32mtwig/extra-bundle[39m ([33mv3.4.0[39m): Extracting archive
+  0/67 [>---------------------------]   0%[2K 10/67 [====>-----------------------]  14%[2K 24/67 [==========>-----------------]  35%[2K 40/67 [================>-----------]  59%[2K 54/67 [======================>-----]  80%[2K 67/67 [============================] 100%[2K[32mGenerating optimized autoload files[39m
+[32m59 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+Executing script cache:clear [32m[OK][39m
+Executing script assets:install public [32m[OK][39m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://2021MacBookPro13.local/Users/Jorge/Desktop/forF5[0m[27m[24m[JJorge@2021MacBookPro13 forF5 % [K[?2004haapacche   he[?2004l
+zsh: command not found: apache
+[1m[7m%[27m[1m[0m                                                                                ]7;file://2021MacBookPro13.local/Users/Jorge/Desktop/forF5[0m[27m[24m[JJorge@2021MacBookPro13 forF5 % [K[?2004h
