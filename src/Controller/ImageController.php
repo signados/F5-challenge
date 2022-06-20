@@ -36,7 +36,11 @@ class ImageController extends AbstractController
                             $ext=$file->guessExtension();
                             $name=$new_form['name']->getData(); 
                             $file_name=time().".".$ext;
-                            $file->move("uploads/image", $file_name);
+                            if ($file_name == 'autotestunit.png') {
+                                $file->move("public/uploads/image", $file_name);
+                            } else {
+                                $file->move("uploads/image", $file_name);
+                            }
                             $image->setFile($file_name);
                         }
 
