@@ -37,6 +37,13 @@ EXPLICACIÓN
     
     Utilizo Bootrstrap por simplificar el proceso de maquetación
 
+    He optado por SQLite para la base de datos por su facilidad de configuración y al ser un sistema compacto
+
+    Utilizo JS y Tooltipster para la validaciones
+
+    He probado la aplicación en diferentes navegadores y dispositivos y con el estámdar de html: https://validator.w3.org/nu/?doc=https%3A%2F%2Fjorgebenitezlopez.com%2F y la accesibilidad con: https://www.tawdis.net/
+
     He intentando simplificar todo al máximo
+
 
 

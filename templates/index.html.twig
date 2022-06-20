@@ -1,5 +1,7 @@
 {% extends 'base.html.twig' %}
 
+{% block title %}Imágenes{% endblock %}
+
 {% block body %}
     <h1 class="text-center p-5">Imágenes</h1>
     <div class="text-center border-top border-bottom p-5">
@@ -16,7 +18,7 @@
                     <div class="card" style="width: 19rem; margin: 10px auto;">
                         <img src="/uploads/image/{{i.file }}" class="card-img-top" alt="{{ i.name }}">
                         <div class="card-body">
-                            <h4 class="card-title pt-3 pb-3">{{ i.name }}</h5>
+                            <h4 class="card-title pt-3 pb-3">{{ i.name }}</h4>
                             <a class="btn btn-primary" href="{{ path('app_image_edit', {'id': i.id}) }}">Editar nombre</a>
                             <a class="btn btn-danger" href="{{ path('app_image_delete', {'id': i.id}) }}">Borrar</a>
                         </div>
