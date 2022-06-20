@@ -31,6 +31,8 @@ INSTALACIÓN
 
     También se puede probar en Apache con MAMP apuntado el host a la carpeta /public
 
+    Para ejecutar los Tests: php bin/phpunit tests/ImageTest.php
+
 EXPLICACIÓN
 
     Utilizo el framework Symfony porque sigen las mejores prácticas en desarrollo web y estoy acostumbrado a trabajar con él. Utilizo la versión 5.4 para trabajar con el php 7.4 que tengo en mi máquina local.
