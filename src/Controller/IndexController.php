@@ -4,9 +4,13 @@ namespace App\Controller;
 use Symfony\Component\HttpFoundation\Response;
 use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Request;
 
 use App\Entity\Image;
 use App\Repository\ImageRepository;
+
+use App\Form\Type\ImageType;
+
 
 
 class IndexController extends AbstractController
@@ -15,7 +19,6 @@ class IndexController extends AbstractController
     {
         $entityManager = $doctrine->getManager();
         $images = $entityManager->getRepository(Image::class)->findAll();
-        //dump($image);die;
 
         return $this->render('index.html.twig', [
             'images' => $images,

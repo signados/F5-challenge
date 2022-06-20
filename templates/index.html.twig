@@ -1,9 +1,35 @@
-<html>
-    <body>
-        <ul>
-        {% for i in images %}
-            <li>{{ i.name }}</li>
-        {% endfor %}
-        </ul>
-    </body>
-</html>
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1 class="text-center p-5">Imágenes</h1>
+    <div class="text-center border-top border-bottom p-5">
+        {% if not images %} 
+            <p>No tienes ninguna imagen en tu lista. ¡Añade una!</p>
+        {% endif %}
+        <a class="btn btn-primary" href="{{ path('app_image_new') }}">Nueva imagen</a>
+    </div>
+
+    {% if images %}
+        <div class="row pt-5 pb-5">
+            {% for i in images %}
+                <div class="col-lg-4">
+                    <div class="card" style="width: 19rem; margin: 10px auto;">
+                        <img src="/uploads/image/{{i.file }}" class="card-img-top" alt="{{ i.name }}">
+                        <div class="card-body">
+                            <h4 class="card-title pt-3 pb-3">{{ i.name }}</h5>
+                            <a class="btn btn-primary" href="{{ path('app_image_edit', {'id': i.id}) }}">Editar nombre</a>
+                            <a class="btn btn-danger" href="{{ path('app_image_delete', {'id': i.id}) }}">Borrar</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="clearfix text-center border-top p-5">
+            <a class="btn btn-primary" href="{{ path('app_image_new') }}">Nueva imagen</a>
+        </div> 
+    {% endif %}
+{% endblock body %}
+
+
+
+

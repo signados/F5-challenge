@@ -1,0 +1,63 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <h1 class="text-center p-5">Nueva imágen</h1>
+
+    <div class="card p-5" style="width: 18rem; margin: 10px auto;">
+
+        {{ form(new_form) }}
+    
+        <p>< <a href="{{ path('app_index') }}">Lista</a></p>
+    
+    </div>
+
+    <script>
+
+        $(document).ready(function () {
+
+            $('.tooltipjs').tooltipster({
+                animation: 'fade',
+                trigger: 'custom',
+                theme: 'tooltipster-light',
+                timer: 3000
+            });
+
+            $( "#image_Guardar" ).click(function(evObject) {
+                evObject.preventDefault();
+                valName();
+            });
+
+        });
+
+        function valName() {
+            var name = $("#image_name").val();
+            if(name == null || name.length == 0 || /^\s+$/.test(name) ) { 
+                $('#image_name').tooltipster('show');
+                //$(target).tooltipster('hide');
+                return false;
+            }
+            valFile()
+        }
+        function valFile() {
+            var file = $("#image_file").val();
+            if(file == null || file.length == 0  ) { 
+                $('#image_file').tooltipster('show');
+                //$(target).tooltipster('hide');
+                return false;
+            }
+            var allowed_extensions = ["jpg","jpeg", "png","gif"];
+            var file_extension = file.split('.').pop().toLowerCase(); 
+            for(var i = 0; i <= allowed_extensions.length; i++) {
+                if(allowed_extensions[i]==file_extension) {
+                    $('form[name="image"]').submit();
+                    return true
+                }
+            }
+            $('#image_file').tooltipster('show');
+            return false   
+        }
+    </script>
+
+{% endblock body %}
+

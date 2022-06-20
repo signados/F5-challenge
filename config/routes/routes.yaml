@@ -1,3 +1,15 @@
-app_index_number:
+app_index:
     path: /
     controller: App\Controller\IndexController::index
+
+app_image_new:
+    path: /image/new
+    controller: App\Controller\ImageController::new
+
+app_image_edit:
+    path:     /image/edit/{id}
+    controller: App\Controller\ImageController::edit
+
+app_image_delete:
+    path:     /image/delete/{id}
+    controller: App\Controller\ImageController::delete

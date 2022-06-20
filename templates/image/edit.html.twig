@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+        <h1 class="text-center p-5">Editar imágen</h1>
+
+        <div class="card p-5" style="width: 19rem; margin: 10px auto;">
+
+            {{ form_start(edit_form) }}
+            {{ form_label(edit_form.name)}}
+            {{ form_widget(edit_form.name,{'attr':{'class':'form-control mt-2 mb-2'}}) }}
+            <input type="submit" value="Guardar" class="btn btn-primary  mt-3 mb-5 " />
+            <p>< <a href="{{ path('app_index') }}">Lista</a></p>
+
+        </div>
+
+
+{% endblock body %}
+
+
+
+
+
+
