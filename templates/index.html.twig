@@ -16,7 +16,9 @@
             {% for i in images %}
                 <div class="col-lg-4">
                     <div class="card" style="width: 19rem; margin: 10px auto;">
-                        <img src="/public/uploads/image/{{i.file }}" class="card-img-top" alt="{{ i.name }}">
+                        <a href="/public/uploads/image/{{i.file }}" target="_blanck">
+                            <img src="/public/uploads/image/{{i.file }}" class="card-img-top" alt="{{ i.name }}">
+                        </a>
                         <div class="card-body">
                             <h4 class="card-title pt-3 pb-3">{{ i.name }}</h4>
                             <a class="btn btn-primary" href="{{ path('app_image_edit', {'id': i.id}) }}">Editar nombre</a>
