@@ -1,11 +1,9 @@
-# forF5
+# F5
 Prueba técnica
 
 ¡Hola!
 
 El repo está en Github: https://github.com/signados/forF5
-En producción está funcionando con Apache en: https://jorgebenitezlopez.com/
-Aquí dejo un vídeo de la instalación: https://jorgebenitezlopez.com/uploads/instalacion.mp4
 
 
 REQUISITOS
