@@ -1,10 +1,4 @@
-# F5
-Prueba técnica
-
-¡Hola!
-
-El repo está en Github: https://github.com/signados/forF5
-
+# F5-challenge
 
 REQUISITOS
 
