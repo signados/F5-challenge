@@ -1,43 +1,55 @@
 # F5-challenge
 
-REQUISITOS
+<img src="https://jorgebenitezlopez.com/github/symfony.jpg">
 
-    Github CLI: https://cli.github.com/
+# CRUD de imágenes con Symfony
 
-    Composer: https://getcomposer.org/download/
+Todo proyecto crece y es mejor utilizar un framework de calidad como Symfony que está muy bien construido, es Open Source y sigue los mejores y más actuales paradigmas de programación: MVC
 
-    Symfony CLI: https://symfony.com/download
+Utilizo Bootrstrap por simplificar el proceso de maquetación
 
-INSTALACIÓN
+He optado por SQLite para la base de datos por su facilidad de configuración y al ser un sistema compacto
 
-    Clonar: gh repo clone signados/forF5; cd forF5
+Utilizo JS y Tooltipster para la validaciones
 
-    Instalar dependencias: composer install
+# Requisitos
 
-    Crear la bsade de datos local:
-        php bin/console doctrine:schema:create
+- Symfony CLI: https://symfony.com/download
+- PHP: PHP 8.2.3 (cli). Por ejemplo se puede descargar en OSX con: https://formulae.brew.sh/formula/php
+- Composer: https://getcomposer.org/download/
 
-    Ejecutar el servidor:  symfony server:start
+# Pasos para la instalación de Symfomy y paquetes
 
-    Probar en: http://127.0.0.1:8000/
+- symfony new image-gallery  --version=5.4
+- composer require symfony/orm-pack (Sin docker)
+- composer require symfony/maker-bundle
+- composer require form validator twig-bundle security-csrf annotations
+- composer require --dev symfony/profiler-pack
+- composer require symfony/form
+- composer require symfony/validator
+- composer require --dev symfony/test-pack 
 
-    También se puede probar en Apache con MAMP apuntado el host a la carpeta /public
+# Configuración y creación de entidades
 
-    Para ejecutar los Tests: php bin/phpunit tests/ImageTest.php
+- Instalar y actualizar dependencias. composer update
+- Modificamos el .env para que genere un sqlite (https://www.sqlite.org/index.html)
+- php bin/console doctrine:schema:update --force (Actualizamos la base de datos)
+- Ejecutar el servidor:  symfony server:start
+- Para ejecutar los Tests: php bin/phpunit tests/ImageTest.php
 
-EXPLICACIÓN
+# Referencias
 
-    Utilizo el framework Symfony porque sigen las mejores prácticas en desarrollo web y estoy acostumbrado a trabajar con él. Utilizo la versión 5.4 para trabajar con el php 7.4 que tengo en mi máquina local.
-    
-    Utilizo Bootrstrap por simplificar el proceso de maquetación
+https://symfony.com/doc/5.4/security/user_providers.html
+https://jnjsite.com/symfony-tutorial-5-los-controladores-y-el-enrutamiento/
+https://symfony.com/doc/5.4/forms.html
+https://symfony.com/doc/5.4/testing.html
+https://github.com/symfony/panther#testing-usage
 
-    He optado por SQLite para la base de datos por su facilidad de configuración y al ser un sistema compacto
+# Tareas pendientes
 
-    Utilizo JS y Tooltipster para la validaciones
+- Utilizar un S3 de Amazon para subir las imágenes.
+- Hacer un login
 
-    He probado la aplicación en diferentes navegadores y dispositivos y con el estámdar de html: https://validator.w3.org/nu/?doc=https%3A%2F%2Fjorgebenitezlopez.com%2F y la accesibilidad con: https://www.tawdis.net/
-
-    He intentando simplificar todo al máximo
 
 
 
